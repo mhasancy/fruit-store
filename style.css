@@ -5,10 +5,13 @@ body {
 h1 {
   font-size: 50px;
 }
-.fruits-word-color {
+.blue-color-word {
   color: #058cf7;
 }
 section {
+  margin: 50px 0px;
+}
+.sec-flex {
   display: flex;
 }
 #sec-about {
@@ -28,18 +31,39 @@ section {
 }
 .half-width {
   width: 50%;
-  padding-left: 2%;
+  padding-left: 5%;
 }
-div img {
-  width: 80%;
+.quarter-width {
+  width: 35%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+section div img {
+  width: 100%;
 }
 .product-item-card {
-  width: 25%;
   box-shadow: 5px 5px 45px rgba(128, 128, 128, 0.24);
   border-radius: 15px;
-  align-items: center;
+  padding: 20px 20px;
 }
-#product-id {
-  display: flex;
+form button {
+  border: none;
+}
+.center {
+  display: block;
   width: 100%;
+  text-align: center;
+}
+.center-in-div {
+  display: flex;
+  width: 90%;
+  padding: 0;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.testimonial-item {
+  width: 25%;
+  margin: 5% 10%;
+  display: flex;
 }

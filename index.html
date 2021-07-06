@@ -15,17 +15,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
+    <section class="sec-flex" id="sec-top">
       <div class="half-width">
         <h1>
-          <span class="fruits-word-color">Eat</span> Fruits, <br />
+          <span class="blue-color-word">Eat</span> Fruits, <br />
           and Keep Yourself <br />
-          Healthy and Strong.
+          Healthy, Strong and Fit.
         </h1>
         <p>
           Fruits are an excellent source of essential vitamins and minerals, and
           they are high in fiber.
         </p>
+        <br />
         <a
           class="link-button"
           target="_blank"
@@ -37,7 +38,7 @@
         <img src="images/img-top.png" alt="a doctor holding fruits" />
       </div>
     </section>
-    <section id="sec-about">
+    <section class="sec-flex" id="sec-about">
       <div class="half-width">
         <img src="images/man-about.png" alt="a standing man" />
       </div>
@@ -47,8 +48,10 @@
           We are running an organic fruit store with a view to serving organic
           fruits all over the country which is collected directly from our
           garden. We ensure great quality fruits to keep you healthy, strong and
-          fit.
+          fit. Currently we only provide three types of fruits. In future, we
+          will provide you with more fruits!
         </p>
+        <br />
         <a
           class="link-button"
           href="https://en.wikipedia.org/wiki/Fruit"
@@ -57,40 +60,92 @@
         >
       </div>
     </section>
+    <section id="sec-products">
+        <h2 class="center">Our Products</h2>
+        <p class="center">
+          We are providing only organic apple, orange and avocado fruits.
+        </p>
+        <div class="center-in-div">
+          <div class="quarter-width">
+            <div class="product-item-card">
+              <img class="center" src="images/fruit-apple.jpg" alt="apple" />
+              <h4>Apple</h4>
+              <p>
+                Apples are popular fruit, containing antioxidants, vitamins,
+                dietary fiber and a range of other nutrients.
+              </p>
+            </div>
+          </div>
+          <div class="quarter-width">
+              <div class="product-item-card">
+                <img class="center" src="images/fruit-avocado.jpg" alt="avocado" />
+                <h4>Avocado</h4>
+                <p>
+                    Avocados are a great source of vitamins C, E, K, and B-6, as well as riboflavin, niacin, folate, pantothenic acid, magnesium, and potassium.
+                </p>
+              </div>
+            </div>
+            <div class="quarter-width">
+              <div class="product-item-card">
+                <img class="center" src="images/fruit-orange.jpg" alt="orange" />
+                <h4>Orange</h4>
+                <p>
+                    Oranges are a healthy source of fiber, vitamin C, thiamine, folate, and antioxidants. They have multiple health benefits.
+                </p>
+              </div>
+            </div>
+        
+      </section>
+    
+    <section id="testimonials">
+        <h2 class="center">Testimonials</h2>
+        <p class="center">
+          What people are saying about us!
+        </p>
+
+      <div class="center-in-div">
+        <div class="half-width">
+            <p>
+                Apples are popular fruit, containing antioxidants, vitamins,
+                dietary fiber and a range of other nutrients.
+              </p>
+          
+              <h4 class="testimonial-item">Apple</h4>
+           
+                <img class="testimonial-item " src="images/fruit-apple.jpg" alt="apple" />
+              </div>
+          <div class="half-width">
+            <p>
+                Apples are popular fruit, containing antioxidants, vitamins,
+                dietary fiber and a range of other nutrients.
+              </p>
+          
+              <h4 class="testimonial-item">Apple</h4>
+           
+                <img class="testimonial-item " src="images/fruit-apple.jpg" alt="apple" />
+              </div>
+      </div>
+             
+            
+    </section>
     <section>
       <div>
-        <div>
-          <h2>Selling Items</h2>
-          <p>We are providing only organic apple, orange and avocado fruits.</p>
-        </div>
-        <div id="product-id">
-          <div class="product-item-card">
-            <img src="images/fruit-apple.jpg" alt="apple" />
-            <h4>Apple</h4>
-            <p>
-              Apples are popular fruit, containing antioxidants, vitamins,
-              dietary fiber and a range of other nutrients.
-            </p>
-          </div>
-          <div class="product-item-card">
-            <img src="images/fruit-avocado.jpg" alt="" />
-            <h4>avocado</h4>
-            <p>
-              Avocados are a great source of vitamins C, E, K, and B-6, as well
-              as riboflavin, niacin, folate, pantothenic acid, magnesium, and
-              potassium
-            </p>
-          </div>
-          <div class="product-item-card">
-            <img src="images/fruit-orange.jpg" alt="" />
-            <h4>Orange</h4>
-            <p>
-              Oranges are a healthy source of fiber, vitamin C, thiamine,
-              folate, and antioxidants. They have multiple health benefits.
-            </p>
-          </div>
-        </div>
+        <h2>Contact Us</h2>
+      </div>
+      <div>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="message" placeholder="Messages" required />
+          <button class="link-button" type="submit">Submit</button>
+        </form>
       </div>
     </section>
+    <footer>
+      <div>
+        <h2><span class="blue-color-word">Organic</span> Fruit Store</h2>
+        <p>Eat fruits, to live healthy. Live healthy to live happy.</p>
+      </div>
+    </footer>
   </body>
 </html>
