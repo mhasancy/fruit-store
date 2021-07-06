@@ -20,12 +20,12 @@ h4 {
 section {
   margin: 50px 0px;
 }
-#sec-about p {
-  width: 70%;
-}
 .sec-flex {
   display: flex;
   align-items: center;
+}
+#sec-about p {
+  width: 70%;
 }
 #sec-about {
   background-image: url(images/bg-about.png);
@@ -33,6 +33,11 @@ section {
   background-size: cover;
   margin: 0;
 }
+#sec-contact a {
+  color: black;
+  text-decoration: none;
+}
+
 #testimonials {
   padding: 20px;
   background-image: url(images/bg-testimonials.png);
@@ -90,12 +95,15 @@ form button {
 }
 footer {
   background-color: black;
-  color: rgb(148, 144, 144);
+  color: white;
   padding: 0.5%;
   text-align: center;
   margin: 0 0 -50px 0;
 }
-#sec-contact a {
-  color: black;
-  text-decoration: none;
+.slighty-dark {
+  color: rgb(148, 144, 144);
+}
+.hr-contact {
+  border-top: 1px solid rgba(148, 144, 144, 0.247);
+  padding-top: 30px;
 }
