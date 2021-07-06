@@ -1,0 +1,29 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+.fruits-word-color {
+  color: #058cf7;
+}
+section {
+  display: flex;
+}
+.link-button {
+  color: white;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #85c5fa, #058cf7);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 500;
+  box-shadow: 2px 2px 10px #85c5fa;
+}
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+div img {
+  width: 80%;
+}
