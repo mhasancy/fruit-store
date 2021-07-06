@@ -33,6 +33,12 @@ section {
   background-size: cover;
   margin: 0;
 }
+#testimonials {
+  padding: 20px;
+  background-image: url(images/bg-testimonials.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .link-button {
   color: white;
   padding: 10px 20px;
