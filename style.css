@@ -116,13 +116,3 @@ footer {
   padding: 30px 20px;
   margin-bottom: 0;
 }
-.center-in-div-with-shadow {
-  display: flex;
-  width: 90%;
-  justify-content: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  box-shadow: 3px 3px 45px rgba(128, 128, 128, 0.24);
-  border-radius: 15px;
-  padding-bottom: 2%;
-}
