@@ -11,6 +11,12 @@ h1 {
 section {
   display: flex;
 }
+#sec-about {
+  background-image: url(images/bg-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
 .link-button {
   color: white;
   padding: 10px 20px;
@@ -26,4 +32,14 @@ section {
 }
 div img {
   width: 80%;
+}
+.product-item-card {
+  width: 25%;
+  box-shadow: 5px 5px 45px rgba(128, 128, 128, 0.24);
+  border-radius: 15px;
+  align-items: center;
+}
+#product-id {
+  display: flex;
+  width: 100%;
 }
