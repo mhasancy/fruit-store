@@ -63,7 +63,13 @@ form button {
   margin-right: 5%;
 }
 .testimonial-item {
-  width: 25%;
+  width: 50%;
   margin: 5% 10%;
   display: flex;
+}
+footer {
+  background-color: black;
+  color: rgb(148, 144, 144);
+  padding: 2%;
+  text-align: center;
 }
