@@ -5,8 +5,11 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 30px;
+}
 .blue-color-word {
-  color: #058cf7;
+  color: salmon;
 }
 section {
   margin: 50px 0px;
@@ -15,7 +18,7 @@ section {
   display: flex;
 }
 #sec-about {
-  background-image: url(images/bg-about.jpg);
+  background-image: url(images/bg-about.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -23,11 +26,11 @@ section {
 .link-button {
   color: white;
   padding: 10px 20px;
-  background-image: linear-gradient(to right, #85c5fa, #058cf7);
+  background-image: linear-gradient(to right, salmon, tomato);
   text-decoration: none;
   border-radius: 50px;
   font-weight: 500;
-  box-shadow: 2px 2px 10px #85c5fa;
+  box-shadow: 2px 2px 10px salmon;
 }
 .half-width {
   width: 50%;
@@ -66,10 +69,12 @@ form button {
   width: 50%;
   margin: 5% 10%;
   display: flex;
+  box-shadow: 5px 5px 45px rgba(128, 128, 128, 0.24);
+  border-radius: 50%;
 }
 footer {
   background-color: black;
   color: rgb(148, 144, 144);
-  padding: 2%;
+  padding: 0.5%;
   text-align: center;
 }
