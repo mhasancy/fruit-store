@@ -106,9 +106,8 @@ section div img {
 footer {
   background-color: black;
   color: white;
-  padding: 0.5%;
+  padding: 10px 10px 30px 10px;
   text-align: center;
-  margin: 0 0 -50px 0;
 }
 
 #hr-payment {
